@@ -1,0 +1,11 @@
+{
+  "name": "postcss-build",
+  "version": "0.0.1",
+  "description": "Examples of how to integrate PostCSS using various build tools",
+  "author": "Chris Vernon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/welikeideas/postcss-build.git"
+  },
+  "license": "BSD-2-Clause"
+}
