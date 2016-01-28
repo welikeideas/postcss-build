@@ -7,5 +7,13 @@
     "type": "git",
     "url": "https://github.com/welikeideas/postcss-build.git"
   },
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "gulp": "^3.9.0",
+    "gulp-cssnano": "^2.1.0",
+    "gulp-postcss": "^6.0.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "precss": "^1.4.0"
+  }
 }

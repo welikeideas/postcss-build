@@ -13,3 +13,16 @@ To see how to use PostCSS with [Grunt](http://gruntjs.com), switch to the grunt 
 
 ### Node
 You can also build your PostCSS files using [Node](https://nodejs.org) which removes the need for a task runner like Gulp or Grunt. Switch to the node branch.
+
+## Using the Gulp example
+This assumes you have [node](https://nodejs.org) and [npm](https://www.npmjs.com) installed.
+
+Firstly, you'll need to install the node modules using npm using the following command:
+
+`npm install`
+
+Once installed, you can then run the following command to build `src/main.css`:
+
+`gulp`
+
+This builds the css using Gulp and the PostCSS modules specified in `gulpfile.js` and saves it to `build/main.css`, along with source maps for the minified css.
